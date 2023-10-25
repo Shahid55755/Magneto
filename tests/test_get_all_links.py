@@ -9,3 +9,5 @@ class TestLinks(MainClass):
         all_links = links.get_all_links()
         assert 'https://magento.softwaretestingboard.com/#contentarea' in all_links
 
+    def test_prin(self):
+        print("New test")
