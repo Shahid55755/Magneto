@@ -77,6 +77,7 @@ class TestData:
     next_button = (By.XPATH, "//button[@class='button action continue primary']//span[text()='Next']")
     p_order_btn = (By.CSS_SELECTOR, "button[title='Place Order']")
     success_order = (By.CSS_SELECTOR, ".base")
+    error_message = (By.CSS_SELECTOR, "div[data-bind='html: $parent.prepareMessageForHtml(message.text)']")
 
 
 
