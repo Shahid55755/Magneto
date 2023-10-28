@@ -1,4 +1,4 @@
-import time
+
 from utilities.BaseClass import MainClass
 from Pages.Login import LoginPage
 
@@ -61,6 +61,21 @@ class TestLogin(MainClass):
             log.info(f"User name is {str}")
             login_page1.enter_password("James@12")
             error = login_page1.sign_in_invalid()
+            print(error.text)
+        except Exception as e:
+            print(f"some error occurred {str(e)}")
+            self.driver.save_screenshot("login error")
+
+    def test_empty_credentials(self):
+        try:
+            log = self.get_logger()
+            login_page1 = LoginPage(self.driver)
+            login_page1.sign_in_button().click()
+            log.info("Sign In button pressed")
+            login_page1.enter_email("")
+            log.info(f"User name is {str}")
+            login_page1.enter_password("")
+            error = login_page1.sign_in_empty()
             print(error.text)
         except Exception as e:
             print(f"some error occurred {str(e)}")

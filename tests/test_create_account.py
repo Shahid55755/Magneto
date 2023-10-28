@@ -1,8 +1,6 @@
-import logging
+
 import time
 
-import pytest
-from selenium.webdriver.common.by import By
 from Pages.CreateAccount import NewAccount
 from utilities import testDataFile
 from utilities.BaseClass import MainClass

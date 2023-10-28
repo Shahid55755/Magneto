@@ -36,6 +36,13 @@ class LoginPage:
         assert "The account sign-in was incorrect or" in error.text
         return error
 
+    def sign_in_empty(self):
+        wait = WebDriverWait(self.driver, 20)
+        wait.until(EC.visibility_of_element_located(TestData.login_Add)).click()
+        error = wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, "#email-error")))
+        assert "This is a required field." in error.text
+        return error
+
     def verify_name(self):
         wait = WebDriverWait(self.driver, 20)
         element = wait.until(EC.visibility_of_element_located(TestData.verify))

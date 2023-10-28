@@ -7122,3 +7122,38 @@
 2023-10-26 10:56:30,626 - INFO - test_valid_invalid - User name is <class 'str'>
 2023-10-26 10:56:35,110 - INFO - test_invalid_valid - Sign In button pressed
 2023-10-26 10:56:35,324 - INFO - test_invalid_valid - User name is <class 'str'>
+2023-10-26 11:15:15,217 - INFO - test_login_page - signIn button pressed
+2023-10-26 11:15:17,124 - INFO - test_invalid - Sign In button pressed
+2023-10-26 11:15:17,472 - INFO - test_invalid - User name is <class 'str'>
+2023-10-26 11:15:21,528 - INFO - test_valid_invalid - Sign In button pressed
+2023-10-26 11:15:21,966 - INFO - test_valid_invalid - User name is <class 'str'>
+2023-10-26 11:15:25,947 - INFO - test_invalid_valid - Sign In button pressed
+2023-10-26 11:15:26,394 - INFO - test_invalid_valid - User name is <class 'str'>
+2023-10-28 09:14:56,230 - INFO - test_empty_credentials - Sign In button pressed
+2023-10-28 09:14:56,483 - INFO - test_empty_credentials - User name is <class 'str'>
+2023-10-28 09:19:22,313 - INFO - test_empty_credentials - Sign In button pressed
+2023-10-28 09:19:22,610 - INFO - test_empty_credentials - User name is <class 'str'>
+2023-10-28 09:21:36,144 - INFO - test_empty_credentials - Sign In button pressed
+2023-10-28 09:21:36,493 - INFO - test_empty_credentials - User name is <class 'str'>
+2023-10-28 09:25:22,777 - INFO - test_empty_credentials - Sign In button pressed
+2023-10-28 09:25:23,342 - INFO - test_empty_credentials - User name is <class 'str'>
+2023-10-28 09:25:44,301 - INFO - test_empty_credentials - Sign In button pressed
+2023-10-28 09:25:44,647 - INFO - test_empty_credentials - User name is <class 'str'>
+2023-10-28 09:37:27,377 - INFO - test_login_page - signIn button pressed
+2023-10-28 09:37:29,211 - INFO - test_invalid - Sign In button pressed
+2023-10-28 09:37:29,531 - INFO - test_invalid - User name is <class 'str'>
+2023-10-28 09:37:33,314 - INFO - test_valid_invalid - Sign In button pressed
+2023-10-28 09:37:33,668 - INFO - test_valid_invalid - User name is <class 'str'>
+2023-10-28 09:37:37,430 - INFO - test_invalid_valid - Sign In button pressed
+2023-10-28 09:37:37,799 - INFO - test_invalid_valid - User name is <class 'str'>
+2023-10-28 09:37:41,572 - INFO - test_empty_credentials - Sign In button pressed
+2023-10-28 09:37:41,854 - INFO - test_empty_credentials - User name is <class 'str'>
+2023-10-28 10:09:08,868 - INFO - test_login_page - signIn button pressed
+2023-10-28 10:09:11,041 - INFO - test_invalid - Sign In button pressed
+2023-10-28 10:09:11,396 - INFO - test_invalid - User name is <class 'str'>
+2023-10-28 10:09:15,231 - INFO - test_valid_invalid - Sign In button pressed
+2023-10-28 10:09:15,617 - INFO - test_valid_invalid - User name is <class 'str'>
+2023-10-28 10:09:19,446 - INFO - test_invalid_valid - Sign In button pressed
+2023-10-28 10:09:19,746 - INFO - test_invalid_valid - User name is <class 'str'>
+2023-10-28 10:09:23,640 - INFO - test_empty_credentials - Sign In button pressed
+2023-10-28 10:09:23,952 - INFO - test_empty_credentials - User name is <class 'str'>

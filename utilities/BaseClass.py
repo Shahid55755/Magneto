@@ -2,6 +2,7 @@ import pytest
 import inspect
 import logging
 
+
 @pytest.mark.usefixtures("setup")
 class MainClass:
     def get_logger(self):

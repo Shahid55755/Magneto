@@ -1,4 +1,4 @@
-import time
+
 from Pages.SearchItem import SearchItem
 from utilities.BaseClass import MainClass
 
